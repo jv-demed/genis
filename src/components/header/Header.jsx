@@ -12,6 +12,8 @@ const HeaderStyled = styled.header`
     font-family: 'Roboto', sans-serif;
     height: 75px;
     justify-content: space-between;
+    position: sticky;
+        top: 0;
     .logo{
         height: 80%;
     }
