@@ -11,20 +11,21 @@ const MainStyled = styled.main`
         display: flex;
         flex-direction: column;
         font-family: 'Roboto', sans-serif;
-        font-size: 3.4rem;
         height: 60vh;
         justify-content: center;
         margin: 30px 0;
         span{
-            line-height: 3.2rem;
+            line-height: 3.4rem;
         }
         .txt1, .txt3{
             color: ${({ theme }) => theme.palette.basics.white};
-            margin-right: 20%;
+            font-size: 3.4rem;
+            margin-right: 22%;
         }
         .txt2{
             color: ${({ theme }) => theme.palette.primary.sunsetOrange};
-            margin-right: 15%;
+            font-size: 4rem;
+            margin-right: 10%;
         }
     }
     .edge{
@@ -35,10 +36,12 @@ const MainStyled = styled.main`
         .content{
             background-position: right;
             .txt1, .txt3{
-                margin-right: 15%;
+                font-size: 3rem;
+                margin-right: 17%;
             }
             .txt2{
-                margin-right: 7%;
+                font-size: 3.4rem;
+                margin-right: 5%;
             }
         }
     }
