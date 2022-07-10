@@ -25,7 +25,7 @@ const MainStyled = styled.main`
         .txt2{
             color: ${({ theme }) => theme.palette.primary.sunsetOrange};
             font-size: 4rem;
-            margin-right: 10%;
+            margin-right: 14%;
         }
     }
     .edge{
