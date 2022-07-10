@@ -93,6 +93,15 @@ export default function MenuMobile(){
                             </Link>
                         </li>
                         <li>
+                            <Link href='/contato'>
+                                <a>
+                                    <Popover.Button className='defaultBtn item'>
+                                        Contato
+                                    </Popover.Button>
+                                </a>
+                            </Link>
+                        </li>
+                        <li>
                             <Link href='/sobre'>
                                 <a>
                                     <Popover.Button className='defaultBtn item'>
@@ -102,10 +111,10 @@ export default function MenuMobile(){
                             </Link>
                         </li>
                         <li>
-                            <Link href='/contato'>
+                            <Link href='/parceiros'>
                                 <a>
                                     <Popover.Button className='defaultBtn item'>
-                                        Contato
+                                        Parceiros
                                     </Popover.Button>
                                 </a>
                             </Link>

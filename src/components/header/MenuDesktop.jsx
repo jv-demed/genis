@@ -27,13 +27,18 @@ export default function MenuDesktop(){
                     </Link>
                 </li>
                 <li>
+                    <Link href='/contato'>
+                        <a>Contato</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href='/sobre'>
                         <a>Sobre Nós</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href='/contato'>
-                        <a>Contato</a>
+                    <Link href='/parceiros'>
+                        <a>Parceiros</a>
                     </Link>
                 </li>
             </ul>

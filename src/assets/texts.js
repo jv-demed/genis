@@ -1,3 +1,11 @@
+export const home = {
+    main: {
+        t1: 'Para você ',
+        t2: 'viver mais ',
+        t3: 'e melhor! '
+    }
+}
+
 export const about = {
     purpose: {
         title: 'A GenIS existe para...',

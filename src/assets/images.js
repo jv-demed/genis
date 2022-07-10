@@ -1,3 +1,10 @@
+export const bgs = {
+    main: {
+        img: 'https://i.imgur.com/XWjvEwL.jpg',
+        alt: 'Pessoa viajando nas montanhas'
+    }
+}
+
 export const imgs = {
     dna: {
         img: 'https://i.imgur.com/oUWCwB9.jpg',

@@ -7,7 +7,7 @@ import MenuDesktop from './MenuDesktop';
 
 const HeaderStyled = styled.header`
     align-items: center;
-    background-color: ${({ theme }) => theme.palette.primary.nileBlue};
+    background-color: ${({ theme }) => theme.palette.primary.pine};
     display: flex;
     font-family: 'Roboto', sans-serif;
     height: 75px;
