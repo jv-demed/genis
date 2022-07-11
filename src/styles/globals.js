@@ -12,6 +12,9 @@ const GlobalStyle = createGlobalStyle`
     li{
         list-style: none;
     }
+    .txtOrange{
+        color: ${({ theme }) => theme.palette.primary.sunsetOrange};
+    }
 `
 
 export default GlobalStyle;
