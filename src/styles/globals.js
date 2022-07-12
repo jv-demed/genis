@@ -12,8 +12,9 @@ const GlobalStyle = createGlobalStyle`
     li{
         list-style: none;
     }
-    .txtOrange{
+    .txtHighlight{
         color: ${({ theme }) => theme.palette.primary.sunsetOrange};
+        font-size: 3rem;
     }
 `
 

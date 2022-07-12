@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import Main from '../src/components/home/Main';
-import InfoData from '../src/components/home/InfoData';
+import InfoData from '../src/components/home/infoData';
+import BrSection from '../src/components/home/BrSection';
+import InfoAnalysis from '../src/components/home/infoAnalysis';
 
 const HomeStyled = styled.main`
     font-family: 'Roboto', sans-serif;
-    height: 1000vh;
 `
 
 export default function Home(){
@@ -12,6 +13,8 @@ export default function Home(){
         <HomeStyled>
             <Main />
             <InfoData />
+            <BrSection />
+            <InfoAnalysis />
         </HomeStyled>
     )
 }

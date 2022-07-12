@@ -16,7 +16,31 @@ export const home = {
             txt2: '+ de 30 anos',
             txt3: `hipertensos aumentou de 650 milhões para 1,28 bilhões nos últimos 30 anos.`,
             quote: '(Ezzati, M. et al. 2021)'
+        },
+        infoMap: {
+            num: '41,8%',
+            txt: `Do total de mortes ocorridas no Brasil se devem às doenças crônicas 
+            não transmissíveis.`,
+            quote: '(Ministério da Saúde Brasil, 2021)'
+        },
+        infoArticles: {
+            num: '54.830',
+            txt: `Artigos científicos relacionam os termos “Doenças crônicas” e 
+            “Associação genética”.`,
+            quote: '(Pubmed, 2022)'
         }
+    },
+    infoAnalysis: {
+        info1: `Nossa fisiologia é determinada pelos produtos de nossos 
+        genes que regulam a absorção, a distribuição, a metabolização e 
+        a excreção de moléculas em nosso organismo.`,
+        info2: `A disponibilização clínica de dados genéticos viabiliza 
+        uma medicina personalizada, a qual melhora a eficiência e a 
+        segurança dos tratamentos, dietas e atividades físicas.`,
+        info3: `Visando contribuir para a qualidade de vida de pessoas 
+        vivendo com doenças crônicas, como a hipertensão, nossa empresa 
+        pretende realizar `,
+        info4: 'análises genéticas.'
     }
 }
 
