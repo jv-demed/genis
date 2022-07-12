@@ -31,7 +31,6 @@ const MainStyled = styled.main`
     @media(max-width: 650px){
         .content{
             background-image: url(${bgs.main.imgMobile});
-            background-position: right;
             .txt1, .txt3{
                 font-size: 3rem;
                 margin-right: 17%;
