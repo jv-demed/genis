@@ -14,13 +14,15 @@ const InfoDataStyled = styled.section`
         display: flex;
         flex-direction: column;
         gap: 60px;
+        padding-bottom: 40px;
+        padding-top: 60px;
     }
 `
 
 export default function InfoData(){
     return(
         <InfoDataStyled>
-            <div className='container section content'>
+            <div className='container content'>
                 <InfoPizza />
                 <InfoArrow />
                 <InfoMap />

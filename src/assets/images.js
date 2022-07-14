@@ -9,6 +9,10 @@ export const bgs = {
         imgDesktop: 'https://i.imgur.com/xNAb895.png',
         imgMobile: 'https://i.imgur.com/KhAqTK1.png',
         alt: 'De brasileiros para brasileiros'
+    },
+    mission: {
+        img: 'https://i.imgur.com/Y4YDUag.jpg',
+        alt: 'Elementos científicos'
     }
 }
 

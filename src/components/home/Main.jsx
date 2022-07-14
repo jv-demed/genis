@@ -3,7 +3,7 @@ import { EdgeSection } from '../globals/EdgeSection';
 import { bgs } from '../../assets/images';
 import { home } from '../../assets/texts';
 
-const MainStyled = styled.main`
+const MainStyled = styled.section`
     .content{
         align-items: flex-end;
         background-image: url(${bgs.main.img});

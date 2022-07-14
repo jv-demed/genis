@@ -55,5 +55,25 @@ export const about = {
         v1: `A informação científica pode ser acessível e aplicável para o bem-estar social.`,
         v2: `Todas as relações devem ser pautadas pela transparência, pela confiança e pela ética.`,
         v3: `Podemos construir um mundo democrático e sustentável.`
+    },
+    mission: {
+        title: 'Nós vamos...',
+        txt: `Ser referência na democratização do acesso a informações genéticas aplicadas a 
+        saúde em cinco anos.`
+    },
+    team: {
+        mayara: `Mayara é Biotecnologista, Mestre e Doutora em Biologia Celular e Molecular 
+        pela UFRGS. Tem experiência de 11 anos em pesquisa, sendo 8 destes dedicados ao estudo 
+        de doenças genéticas humanas. Atuou em parceria com o serviço de referência da triagem 
+        neonatal do RS na implementação de diagnósticos genéticos e recentemente realizou 
+        treinamento em um centro de referência em doenças genéticas do metabolismo na Suíça. 
+        Atualmente dedica-se à implantação da Alostérica - Insumos Biotecnológicos e à 
+        projetação da GenIS.`,
+        rubia: `Rúbia é bióloga, Mestre e Doutora em Genética e Biologia Molecular pela UFRGS. 
+        Atuou por 10 anos em pesquisas na área da saúde. Tem experiência em genética humana e 
+        de microrganismos, no desenvolvimento de métodos para análises genéticas, bem como, na 
+        aplicação de estatística multivariada para interpretação de dados. Recentemente 
+        trabalhou como gerente de projetos voltados para inovação na educação, obtendo 
+        certificação pelo PMI. Atualmente dedica-se à projetação da GenIS.`
     }
 }

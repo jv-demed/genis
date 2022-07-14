@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
 import Header from '../src/components/header/Header';
+import Footer from '../src/components/footer/Footer';
 import GlobalStyle from '../src/styles/globals';
 import theme from '../src/styles/theme';
 import '../src/styles/container.css';
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }){
                 <GlobalStyle />
                 <Header />
                 <Component {...pageProps} />
+                <Footer />
             </ThemeProvider>
         </>
     )

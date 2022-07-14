@@ -1,35 +1,35 @@
 import styled from 'styled-components';
-import { imgs } from '../../assets/images';
 import { about } from '../../assets/texts';
 
 const ValuesStyled = styled.section`
-    background-color: ${({ theme }) => theme.palette.primary.sunsetOrange};
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    h2{
-        font-size: 2rem;
-        padding: 15px 0;
-    }
-    .box{
+        color: black;
         display: flex;
-        gap: 0.5%;
-        justify-content: space-between;
-        padding-bottom: 15px;
-        .box-values{
-            background-color: ${({ theme }) => theme.palette.primary.tangerine};
-            border-radius: 40px;
-            display: flex;
-            font-size: 1.4rem;
-            padding: 20px;
-            width: 33%;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+        h2{
+            color: ${({ theme }) => theme.palette.primary.sunsetOrange};
         }
+        .txt-group{
+            display: flex;
+            gap: 2%;
+            justify-content: space-between;
+            text-align: center;
+            .txt{
+                background-color: rgba(0,0,0,0.1);
+                border-radius: 40px;
+                display: flex;
+                font-size: 1.6rem;
+                padding: 20px;
+                padding-bottom: 10px;
+                width: 32%;
+            }
     }
     @media(max-width: 650px){
-        .box{
+        .txt-group{
             flex-direction: column;
             row-gap: 15px;
-            .box-values{
+            .txt{
                 width: 100%;
             }
         }
@@ -38,16 +38,16 @@ const ValuesStyled = styled.section`
 
 export default function Values(){
     return(
-        <ValuesStyled className='container section'>
-            <h2>{about.values.title}</h2>
-            <div className='box'>
-                <div className='box-values'>
+        <ValuesStyled className='container'>
+            <h2 className='txtHighlight'>{about.values.title}</h2>
+            <div className='txt-group'>
+                <div className='txt'>
                     <p>{about.values.v1}</p>
                 </div>
-                <div className='box-values'>
+                <div className='txt'>
                     <p>{about.values.v2}</p>
                 </div>
-                <div className='box-values'>
+                <div className='txt'>
                     <p>{about.values.v3}</p>
                 </div>
             </div>
