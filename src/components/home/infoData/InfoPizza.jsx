@@ -7,7 +7,7 @@ const InfoPizzaStyled = styled.div`
     gap: 40px;
     img{
         height: 100%;
-        width: 50%;
+        width: 40%;
     }
     .txt{
         display: flex;

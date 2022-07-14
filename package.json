@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@headlessui/react": "^1.6.6",
     "next": "^12.2.1",
     "react": "^18.2.0",

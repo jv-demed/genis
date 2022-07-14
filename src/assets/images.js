@@ -49,8 +49,12 @@ export const imgs = {
 }
 
 export const logos = {
-    logo: {
+    logoTeste: {
         img: 'https://i.imgur.com/7J9s4ek.png',
         alt: 'Logo de Teste'
+    },
+    logo: {
+        img: 'https://i.imgur.com/ZqkH7jt.png',
+        alt: 'Logo da GenIS'
     }
 }
