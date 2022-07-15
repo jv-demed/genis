@@ -8,12 +8,13 @@ const FooterStyled = styled.footer`
     color: ${({ theme }) => theme.palette.basics.white};
     display: flex;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
     justify-content: space-between;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     @media(max-width: 650px){
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
 `
 

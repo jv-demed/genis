@@ -3,6 +3,7 @@ import { AiOutlineTrademarkCircle } from 'react-icons/ai';
 import { BsWhatsapp, BsInstagram, BsFacebook } from 'react-icons/bs';
 
 const InfoCopyStyled = styled.div`
+    text-align: center;
     .icons{
         display: flex;
         gap: 10px;
@@ -24,9 +25,9 @@ export default function InfoCopy(){
                 <AiOutlineTrademarkCircle />
             </span>
             <div className='icons'>
-                <BsWhatsapp size={18} />
-                <BsInstagram size={18} />
-                <BsFacebook size={18} />
+                <BsWhatsapp size={25} />
+                <BsInstagram size={25} />
+                <BsFacebook size={25} />
             </div>
         </InfoCopyStyled>
     )

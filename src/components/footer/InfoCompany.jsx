@@ -14,7 +14,6 @@ const InfoCompanyStyled = styled.div`
         justify-content: right;
     }
     @media(max-width: 650px){
-        padding-left: 20px;
         span{
             flex-direction: row-reverse;
             justify-content: left;
