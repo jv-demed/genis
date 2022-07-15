@@ -54,7 +54,7 @@ export const logos = {
         alt: 'Logo de Teste'
     },
     logo: {
-        img: 'https://i.imgur.com/ZqkH7jt.png',
+        img: 'https://i.imgur.com/zbnBMYD.png',
         alt: 'Logo da GenIS'
     }
 }
