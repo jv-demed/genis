@@ -4,8 +4,8 @@ import InfoCompany from './InfoCompany';
 
 const FooterStyled = styled.footer`
     align-items: center;
-    background-color: ${({ theme }) => theme.palette.primary.nileBlue};
-    color: ${({ theme }) => theme.palette.basics.white};
+    background-color: ${({ theme }) => theme.palette.purple};
+    color: ${({ theme }) => theme.palette.white};
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;

@@ -1,4 +1,7 @@
 export const infos = {
-    gmail: 'genis@genis.com.br',
-    whatsapp: '51982828282'
+    gmail: 'geneticsolutions.br@gmail.com',
+    instagram: 'genis.dna',
+    linkedin: 'genetic-and-innovative-solutions',
+    phone: '51 980814837',
+    whatsapp: '5551980814837'
 }

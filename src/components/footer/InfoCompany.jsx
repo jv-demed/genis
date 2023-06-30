@@ -9,6 +9,7 @@ const InfoCompanyStyled = styled.div`
     gap: 5px;
     span{
         align-items: center;
+        color: ${({ theme }) => theme.palette.white};
         display: flex;
         gap: 8px;
         justify-content: right;
@@ -25,7 +26,7 @@ export default function InfoCompany(){
     return(
         <InfoCompanyStyled>
             <span>
-                {infos.whatsapp}
+                {infos.phone}
                 <BsPhone size={20} />
             </span>
             <span>
