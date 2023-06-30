@@ -54,9 +54,9 @@ export default function HomeSection(){
             </div>
             <EdgeSection />
             <div className='content container flexColumn'>
-                {home.content.map(txt => {
+                {home.content.map((txt, i) => {
                     return(
-                        <span>{txt}</span>
+                        <span key={i}>{txt}</span>
                     )
                 })}
             </div>

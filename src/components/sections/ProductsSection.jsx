@@ -91,7 +91,7 @@ export default function ProductsSection(){
                 {products.content.map((txt, i) => {
                     if(i >= 2){
                         return(
-                            <span>{products.content[i]}</span>
+                            <span key={i}>{txt}</span>
                         )
                     }
                 })}

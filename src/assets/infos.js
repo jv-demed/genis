@@ -3,5 +3,5 @@ export const infos = {
     instagram: 'genis.dna',
     linkedin: 'genetic-and-innovative-solutions',
     phone: '51 980814837',
-    whatsapp: '5551980814837'
+    whatsapp: '+555181893766'
 }

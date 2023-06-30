@@ -111,14 +111,14 @@ export default function AboutSection(){
                 <div className='leaders flexRow'>
                     {leaders.map(leader => {
                         return(
-                            <LeaderBox leader={leader} />
+                            <LeaderBox key={leader.name} leader={leader} />
                         )
                     })}
                 </div>
                 <div className='team-members flexRow'>
                     {team.map(t => {
                         return(
-                            <TeamBox team={t} />
+                            <TeamBox key={t.name} team={t} />
                         )
                     })}
                 </div>

@@ -77,7 +77,7 @@ export default function MenuMobile(){
                     <ul>
                         {menuItems.map(item => {
                             return(
-                                <li>
+                                <li key={item.section}>
                                     <Link href={item.link}>
                                         <a>
                                             <Popover.Button className='defaultBtn item'>
