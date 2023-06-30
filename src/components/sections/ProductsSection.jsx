@@ -46,6 +46,19 @@ const ProductsSectionStyled = styled.section`
             width: 35%;
         }
     }
+    @media(max-width: 650px){
+        .content{
+            .g1{
+                flex-direction: column-reverse;
+                .pizza{
+                    width: 50%;
+                }
+            }
+            .g2{
+                flex-direction: column;
+            }
+        }
+    }
 `
 
 export default function ProductsSection(){
@@ -59,22 +72,27 @@ export default function ProductsSection(){
             </div>
             <EdgeSection />
             <div className='content container flexColumn'>
-                <div className='group flexRow'>
+                <div className='group g1 flexRow'>
                     <img className='pizza'
                         src={elements.graphPizza.img} 
                         alt={elements.graphPizza.alt} 
                     />
-                    <span>{products.content.p1}</span>
+                    <span>{products.content[0]}</span>
                 </div>
-                <div className='group flexRow'>
-                    <span>{products.content.p2}</span>
+                <div className='group g2 flexRow'>
+                    <span>{products.content[1]}</span>
                     <img 
                         src={elements.brazilMap.img} 
                         alt={elements.brazilMap.alt} 
                     />
                 </div>
-                <span>{products.content.p3}</span>
-                <span>{products.content.p4}</span>
+                {products.content.map((txt, i) => {
+                    if(i >= 2){
+                        return(
+                            <span>{products.content[i]}</span>
+                        )
+                    }
+                })}
             </div>
             <EdgeSection />
         </ProductsSectionStyled>

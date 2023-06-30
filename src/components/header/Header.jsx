@@ -16,6 +16,9 @@ const HeaderStyled = styled.header`
     .logo{
         height: 100%;
     }
+    @media(max-width: 650px){
+        height: 90px;
+    }
 `
 
 export default function Header(){

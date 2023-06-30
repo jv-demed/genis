@@ -30,8 +30,8 @@ const HomeSectionStyled = styled.section`
     .content{
         font-size: 1.6rem;
         gap: 15px;
-        padding-bottom: 30px;
-        padding-top: 30px;
+        padding-bottom: 60px;
+        padding-top: 60px;
         text-align: justify;
     }
 `
@@ -46,10 +46,11 @@ export default function HomeSection(){
             </div>
             <EdgeSection />
             <div className='content container flexColumn'>
-                <span>{home.content.p1}</span>
-                <span>{home.content.p2}</span>
-                <span>{home.content.p3}</span>
-                <span>{home.content.p4}</span>
+                {home.content.map(txt => {
+                    return(
+                        <span>{txt}</span>
+                    )
+                })}
             </div>
             <EdgeSection />
         </HomeSectionStyled>

@@ -1,9 +1,9 @@
 export const bgs = {
     home: {
-        img: 'https://i.imgur.com/QvFmZ4k.png'
+        img: 'https://i.imgur.com/qQXpNq4.png'
     },
     products: {
-        img: 'https://i.imgur.com/LvF6J1x.png',
+        img: 'https://i.imgur.com/4QAqDap.png',
     },
     brSection: {
         img: 'https://i.imgur.com/Efoeq1H.png',

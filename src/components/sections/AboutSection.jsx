@@ -35,6 +35,13 @@ const AboutSectionStyled = styled.section`
             }
         }
     }
+    @media(max-width: 650px){
+        .group{
+            .boxes{
+                flex-direction: column;
+            }
+        }
+    }
 `
 
 export default function AboutSection(){

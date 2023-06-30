@@ -16,14 +16,14 @@ const MenuMobileStyled = styled.nav`
     .hamburger{
         background-color: rgba(0,0,0,0);
         border: none;
-        color: ${({ theme }) => theme.palette.basics.white};
+        color: ${({ theme }) => theme.palette.txt};
         display: flex;
-        font-size: 1.6rem;
+        font-size: 2rem;
         outline: none;
     }
     .menu{
         animation: slide 0.2s linear;
-        background-color: ${({ theme }) => theme.palette.primary.nileBlue};
+        background-color: ${({ theme }) => theme.palette.orange};
         display: flex;
         flex-direction: column;
         height: 100vh;
