@@ -17,7 +17,10 @@ const HeaderStyled = styled.header`
         height: 100%;
     }
     @media(max-width: 650px){
-        height: 90px;
+        height: 80px;
+        .logo{
+            height: 80%;
+        }
     }
 `
 

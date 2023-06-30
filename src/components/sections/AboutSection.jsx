@@ -5,6 +5,10 @@ import { about } from '../../assets/texts';
 
 const AboutSectionStyled = styled.section`
     background-color: ${({ theme }) => theme.palette.blue};
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 30px;
     span{
         color: ${({ theme }) => theme.palette.white};
     }
@@ -12,7 +16,6 @@ const AboutSectionStyled = styled.section`
         align-items: center;
         font-size: 2.6rem;
         justify-content: space-between;
-        padding-top: 30px;
         .dna{
             border-radius: 65% 35% 46% 54% / 43% 62% 38% 57%;
             box-shadow: 1px 1px 1px black;
@@ -36,6 +39,12 @@ const AboutSectionStyled = styled.section`
         }
     }
     @media(max-width: 650px){
+        .about{
+            flex-direction: column;
+            .dna{
+                width: 80%;
+            }
+        }
         .group{
             .boxes{
                 flex-direction: column;

@@ -34,6 +34,14 @@ const HomeSectionStyled = styled.section`
         padding-top: 60px;
         text-align: justify;
     }
+    @media(max-width: 650px){
+        .content{
+            font-size: 1.4rem;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            text-align: left;
+        }
+    }
 `
 
 export default function HomeSection(){

@@ -48,6 +48,8 @@ const ProductsSectionStyled = styled.section`
     }
     @media(max-width: 650px){
         .content{
+            font-size: 1.4rem;
+            text-align: left;
             .g1{
                 flex-direction: column-reverse;
                 .pizza{
