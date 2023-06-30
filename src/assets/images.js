@@ -1,8 +1,9 @@
 export const bgs = {
-    main: {
-        img: 'https://i.imgur.com/XWjvEwL.jpg',
-        imgMobile: 'https://i.imgur.com/JZWSJLO.png',
-        alt: 'Pessoa viajando nas montanhas'
+    home: {
+        img: 'https://i.imgur.com/QvFmZ4k.png'
+    },
+    products: {
+        img: 'https://i.imgur.com/LvF6J1x.png',
     },
     brSection: {
         img: 'https://i.imgur.com/Efoeq1H.png',
@@ -13,7 +14,7 @@ export const bgs = {
     mission: {
         img: 'https://i.imgur.com/Y4YDUag.jpg',
         alt: 'Elementos científicos'
-    }
+    },
 }
 
 export const elements = {
@@ -55,6 +56,10 @@ export const logos = {
     },
     logo: {
         img: 'https://i.imgur.com/zbnBMYD.png',
+        alt: 'Logo da GenIS'
+    },
+    headerLogo: {
+        img: 'https://i.imgur.com/Dom2n86.png',
         alt: 'Logo da GenIS'
     }
 }

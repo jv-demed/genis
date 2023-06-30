@@ -1,20 +1,13 @@
-import styled from 'styled-components';
-import Main from '../src/components/home/Main';
-import InfoData from '../src/components/home/infoData';
-import BrSection from '../src/components/home/BrSection';
-import InfoAnalysis from '../src/components/home/infoAnalysis';
+import HomeSection from '../src/components/sections/HomeSection';
+import AboutSection from '../src/components/sections/AboutSection';
+import ProductsSection from '../src/components/sections/ProductsSection';
 
-const HomeStyled = styled.main`
-    font-family: 'Roboto', sans-serif;
-`
-
-export default function Home(){
+export default function LandingPage(){
     return(
-        <HomeStyled>
-            <Main />
-            <InfoData />
-            <BrSection />
-            <InfoAnalysis />
-        </HomeStyled>
+        <>
+            <HomeSection />
+            <ProductsSection />
+            <AboutSection />
+        </>
     )
 }

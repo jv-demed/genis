@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Popover } from '@headlessui/react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { VscChromeClose } from 'react-icons/vsc';
+import { menuItems } from './menu';
 
 const MenuMobileStyled = styled.nav`
     @keyframes slide{
@@ -74,51 +75,19 @@ export default function MenuMobile(){
                         </Popover.Button>
                     </div>
                     <ul>
-                        <li>
-                            <Link href='/'>
-                                <a>
-                                    <Popover.Button className='defaultBtn item'>
-                                        Home
-                                    </Popover.Button>
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='/produtos'>
-                                <a>
-                                    <Popover.Button className='defaultBtn item'>
-                                        Produtos
-                                    </Popover.Button>
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='/contato'>
-                                <a>
-                                    <Popover.Button className='defaultBtn item'>
-                                        Contato
-                                    </Popover.Button>
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='/sobre'>
-                                <a>
-                                    <Popover.Button className='defaultBtn item'>
-                                        Sobre Nós
-                                    </Popover.Button>
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='/parceiros'>
-                                <a>
-                                    <Popover.Button className='defaultBtn item'>
-                                        Parceiros
-                                    </Popover.Button>
-                                </a>
-                            </Link>
-                        </li>
+                        {menuItems.map(item => {
+                            return(
+                                <li>
+                                    <Link href={item.link}>
+                                        <a>
+                                            <Popover.Button className='defaultBtn item'>
+                                                {item.section}
+                                            </Popover.Button>
+                                        </a>
+                                    </Link>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </Popover.Panel>
             </Popover>

@@ -21,7 +21,7 @@ const InfoFisioStyled = styled.section`
 
 export default function InfoFisio(){
     return(
-        <InfoFisioStyled>
+        <InfoFisioStyled id='teste'>
             <InfoBox 
                 img={elements.icons.fisio}
                 row={'row'}

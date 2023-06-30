@@ -1,13 +1,19 @@
 import Link from 'next/link';
 import styled from 'styled-components';
+import { menuItems } from './menu';
 
 const MenuDesktopStyled = styled.nav`
     ul{
         display: flex;
         font-size: 1.2rem;
         gap: 20px;
+        a{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
         a:hover{
-            color: ${({ theme }) => theme.palette.basics.grayI200};
+            opacity: 0.7;
+            transition: all 0.4s;
         }
     }
 `
@@ -16,31 +22,17 @@ export default function MenuDesktop(){
     return(
         <MenuDesktopStyled>
             <ul>
-                <li>
-                    <Link href='/'>
-                        <a>Home</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/produtos'>
-                        <a>Produtos</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/contato'>
-                        <a>Contato</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/sobre'>
-                        <a>Sobre Nós</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/parceiros'>
-                        <a>Parceiros</a>
-                    </Link>
-                </li>
+                {menuItems.map(item => {
+                    return(
+                        <li key={item.section}>
+                            <Link href={item.link}>
+                                <a style={{ color: item.color }}>
+                                    {item.section}
+                                </a>
+                            </Link>
+                        </li>
+                    )
+                })}
             </ul>
         </MenuDesktopStyled>
     )

@@ -13,7 +13,7 @@ const MainStyled = styled.section`
         flex-direction: column;
         height: 60vh;
         justify-content: center;
-        margin: 30px 0;
+        //margin: 30px 0;
         span{
             line-height: 3.4rem;
         }
@@ -45,7 +45,7 @@ const MainStyled = styled.section`
 
 export default function Main(){
     return(
-        <MainStyled>
+        <MainStyled id='main'>
             <div className='content'>
                 <span className='txt1'>{home.main.t1}</span>
                 <span className='txt2'>{home.main.t2}</span>

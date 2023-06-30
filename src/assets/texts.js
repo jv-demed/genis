@@ -1,4 +1,28 @@
 export const home = {
+    presentation: {
+        t1: 'Para você ',
+        t2: 'viver mais ',
+        t3: 'e melhor! '
+    },
+    content: {
+        p1: `A GenIS é uma empresa inovadora que vai transformar a vida 
+        dos brasileiros com doenças crônicas. Nossa missão é proporcionar 
+        uma maior qualidade de vida, oferecendo análises genéticas que 
+        forneçam informações valiosas sobre nutrição, desempenho físico, 
+        metabolismo de medicamentos e predisposição a doenças correlacionadas, 
+        tudo considerando o contexto das doenças crônicas já estabelecidas.`,
+        p2: `Imagine ter acesso aos seus dados genéticos e poder aproveitar 
+        uma medicina personalizada, feita especialmente para você. `,
+        p3: `É exatamente isso que a GenIS oferece aos seus usuários. 
+        Queremos ajudar você a obter os melhores resultados através de dados 
+        científicos confiáveis. Nossa abordagem permite que você tome decisões 
+        informadas e adote um estilo de vida mais adequado para lidar com sua 
+        doença crônica, mas que leve em consideração suas necessidades. A 
+        GenIS está aqui para oferecer o suporte necessário, colocando o poder 
+        de sua própria genética em suas mãos.`,
+        p4: `Junte-se a nós e descubra como a ciência pode ser sua aliada na 
+        busca por uma vida saudável.`
+    },
     main: {
         t1: 'Para você ',
         t2: 'viver mais ',
@@ -44,7 +68,46 @@ export const home = {
     }
 }
 
+export const products = {
+    presentation: {
+        t1: 'de',
+        t2: 'brasileiros',
+        t3: 'para',
+        t4: 'brasileiros'
+    },
+    content: {
+        p1: `As doenças crônicas não transmissíveis, como as doenças 
+        cardiovasculares, representam uma preocupação significativa em 
+        todo o mundo. De fato, cerca de 70% de todas as mortes no planeta 
+        são atribuídas a essas condições (WHO, 2021). No Brasil, elas também 
+        têm um impacto significativo, respondendo por 41,8% do total de óbitos 
+        em 2021 (Ministério da Saúde Brasil, 2021).`,
+        p2: `Uma dessas doenças é a hipertensão arterial. Nos últimos 30 anos, 
+        o número de adultos com mais de 30 anos diagnosticados com hipertensão 
+        dobrou, passando de 650 milhões para 1,28 bilhões (Ezzati, M. et al. 
+        2021). No Brasil são mais de 40 milhões de hipertensos (Ministério da 
+        Saúde Brasil, 2021).`,
+        p3: `Entender a relação entre nossa genética e nossa fisiologia pode 
+        abrir novas possibilidades para o tratamento e prevenção das doenças 
+        crônicas, inclusive para a hipertensão. Nossos genes influenciam a 
+        forma como nosso organismo absorve, distribui, metaboliza e excreta 
+        moléculas. A disponibilização de dados genéticos possibilita uma 
+        medicina personalizada, que melhora a eficiência e a segurança dos 
+        tratamentos, dietas e atividades físicas. Em conjunto, informações 
+        genéticas e mudanças assertivas de hábitos podem aumentar a qualidade 
+        e a expectativa de vida das pessoas hipertensas.`,
+        p4: `Assim, a Genis tem como objetivo contribuir para a qualidade de 
+        vida das pessoas que vivem com doenças crônicas. Através de 
+        mapeamentos genéticos direcionados, buscamos identificar informações 
+        específicas relacionadas a cada doença, a fim de oferecer abordagens 
+        terapêuticas mais precisas e personalizadas. Acreditamos que essa 
+        abordagem pode fazer a diferença na saúde e bem-estar de milhões de 
+        pessoas em todo o mundo.`
+    }
+}
+
 export const about = {
+    slogan: 'Descubra o poder do seu DNA',
     purpose: {
         title: 'A GenIS existe para...',
         text: `Transformar conhecimento genético em um resultado personalizado que 

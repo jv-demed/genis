@@ -7,18 +7,14 @@ import MenuDesktop from './MenuDesktop';
 
 const HeaderStyled = styled.header`
     align-items: center;
-    background-color: ${({ theme }) => theme.palette.primary.pine};
+    background-color: ${({ theme }) => theme.palette.white};
     display: flex;
-    font-family: 'Roboto', sans-serif;
     height: 75px;
     justify-content: space-between;
     position: sticky;
         top: 0;
     .logo{
-        height: 80%;
-    }
-    a{
-        color: ${({ theme }) => theme.palette.basics.white};
+        height: 100%;
     }
 `
 
@@ -29,7 +25,10 @@ export default function Header(){
     return(
         <HeaderStyled className='container'>
             <Link href='/'>
-                <img className='logo' src={logos.logo.img} alt={logos.logo.alt} />
+                <img className='logo' 
+                    src={logos.headerLogo.img} 
+                    alt={logos.headerLogo.alt} 
+                />
             </Link>
             {isMobile ? <MenuMobile /> : <MenuDesktop />}
         </HeaderStyled>
