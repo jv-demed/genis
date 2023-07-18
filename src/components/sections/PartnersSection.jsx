@@ -20,7 +20,7 @@ const PartnersSectionStyled = styled.section`
     @media(max-width: 650px){
         .imgs{
             img{
-                width: 48%;
+                width: 55%;
             }
         }
     }
