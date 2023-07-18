@@ -1,15 +1,12 @@
 export const menuItems = [
     {
         section: 'Home',
-        link: '#home',
-        color: 'orange'
+        link: '#home'
     },{
         section: 'Produtos',
-        link: '#produtos',
-        color: 'pink'
+        link: '#produtos'
     },{
         section: 'Sobre Nós',
-        link: '#sobre',
-        color: 'purple'
+        link: '#sobre'
     }
 ]

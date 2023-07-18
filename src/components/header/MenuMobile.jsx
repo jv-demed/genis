@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import styled from 'styled-components';
+import { menuItems } from './menu';
 import { Popover } from '@headlessui/react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { VscChromeClose } from 'react-icons/vsc';
-import { menuItems } from './menu';
 
 const MenuMobileStyled = styled.nav`
     @keyframes slide{
@@ -61,7 +61,7 @@ const MenuMobileStyled = styled.nav`
     }
 `
 
-export default function MenuMobile(){
+export function MenuMobile(){
     return(
         <MenuMobileStyled>
             <Popover>

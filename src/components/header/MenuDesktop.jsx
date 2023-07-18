@@ -8,6 +8,7 @@ const MenuDesktopStyled = styled.nav`
         font-size: 1.2rem;
         gap: 20px;
         a{
+            color: ${({ theme }) => theme.palette.txt};
             font-size: 1.2rem;
             font-weight: bold;
         }
@@ -18,7 +19,7 @@ const MenuDesktopStyled = styled.nav`
     }
 `
 
-export default function MenuDesktop(){
+export function MenuDesktop(){
     return(
         <MenuDesktopStyled>
             <ul>
@@ -26,7 +27,7 @@ export default function MenuDesktop(){
                     return(
                         <li key={item.section}>
                             <Link href={item.link}>
-                                <a style={{ color: item.color }}>
+                                <a>
                                     {item.section}
                                 </a>
                             </Link>

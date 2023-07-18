@@ -89,13 +89,12 @@ export const products = {
         tratamentos, dietas e atividades físicas. Em conjunto, informações 
         genéticas e mudanças assertivas de hábitos podem aumentar a qualidade 
         e a expectativa de vida das pessoas hipertensas.`,
-        `Assim, a Genis tem como objetivo contribuir para a qualidade de 
-        vida das pessoas que vivem com doenças crônicas. Através de 
-        mapeamentos genéticos direcionados, buscamos identificar informações 
-        específicas relacionadas a cada doença, a fim de oferecer abordagens 
-        terapêuticas mais precisas e individualizadas. Acreditamos que essa 
-        abordagem pode fazer a diferença na saúde e bem-estar de milhões de 
-        pessoas em todo o mundo.`
+        `Assim, a Genis tem como objetivo contribuir para a qualidade de vida das 
+        pessoas que sofrem com doenças crônicas. Nossos mapeamentos genéticos 
+        direcionados, buscam identificar informações relacionadas a cada doença, 
+        gerando abordagens terapêuticas mais precisas e individualizadas. Acreditamos 
+        que podemos fazer a diferença na saúde e bem-estar de milhões de pessoas em 
+        todo o mundo.`
     ]
 }
 

@@ -2,8 +2,8 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import { useMedia } from 'use-media';
 import { logos } from '../../assets/images';
-import MenuMobile from './MenuMobile';
-import MenuDesktop from './MenuDesktop';
+import { MenuMobile } from './MenuMobile';
+import { MenuDesktop } from './MenuDesktop';
 
 const HeaderStyled = styled.header`
     align-items: center;
