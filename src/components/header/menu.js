@@ -8,5 +8,8 @@ export const menuItems = [
     },{
         section: 'Sobre Nós',
         link: '#sobre'
+    },{
+        section: 'Parceiros',
+        link: '#parceiros'
     }
 ]

@@ -75,10 +75,10 @@ export const partners = [
         img: 'https://i.imgur.com/3WyCQaN.png',
         alt: 'Logo Inovativa'
     },{
-        img: 'https://i.imgur.com/lTVSyAX.png',
-        alt: 'Logo Sebrae'
-    },{
         img: 'https://i.imgur.com/Kcd7jUe.png',
         alt: 'Logo Fapergs'
+    },{
+        img: 'https://i.imgur.com/lTVSyAX.png',
+        alt: 'Logo Sebrae'
     }
 ]
