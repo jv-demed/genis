@@ -39,7 +39,13 @@ const ContactSectionStyled = styled.section`
         }
     }
     @media(max-width: 650px){
-        
+        form{
+            .inputs{
+                .group{
+                    flex-direction: column;
+                }
+            }
+        }
     }
 `
 
