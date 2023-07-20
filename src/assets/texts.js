@@ -132,3 +132,7 @@ export const about = {
         certificação pelo PMI. Atualmente dedica-se à projetação da GenIS.`
     }
 }
+
+export const contact = {
+    title: 'Deixe seu contato para ficar por dentro das novidades da GenIS'
+}

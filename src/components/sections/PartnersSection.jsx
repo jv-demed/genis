@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { bgs, elements, partners } from '../../assets/images';
-import { home, products } from '../../assets/texts';
+import { partners } from '../../assets/images';
 import { EdgeSection } from '../globals/EdgeSection';
 
 const PartnersSectionStyled = styled.section`
@@ -32,7 +31,7 @@ export default function PartnersSection(){
             <div className='imgs container'>
                 {partners.map(part => {
                     return(
-                        <img src={part.img} alt={part.alt} />
+                        <img src={part.img} alt={part.alt} key={part.img} />
                     )
                 })}
             </div>
